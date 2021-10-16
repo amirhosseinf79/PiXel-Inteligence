@@ -28,83 +28,83 @@
 
 ## App Features
 - ##### Introduce
-Ask PiXel to introduce itself:
-	- introduce yourself
-	- etc...
+	- Ask PiXel to introduce itself:
+		- introduce yourself
+		- etc...
 - ##### Search Engine
-Search anything on youtube, wikipedia, imdb and anywhere:
-	- Search python toturial on youtube
-	- Search python on wikipedia
-	- Search office on imdb
-	- Search your name genre
-	- etc...
+	- Search anything on youtube, wikipedia, imdb and anywhere:
+		- Search python toturial on youtube
+		- Search python on wikipedia
+		- Search office on imdb
+		- Search your name genre
+		- etc...
 - ##### Ask Engine
-Ask anything about anything:
-	- Tell me about Donald Trump
-	- who is Jason momoa
-	- what is python
-	- etc...
+	- Ask anything about anything:
+		- Tell me about Donald Trump
+		- who is Jason momoa
+		- what is python
+		- etc...
 - ##### Download Engine:
-Download anything from aimeout, youtube and anywhere under the internet:
-	- download Lovely from YouTube
-	- download Your name from animeout
-	- download call of duty word war II
-	- etc...
+	- Download anything from aimeout, youtube and anywhere under the internet:
+		- download Lovely from YouTube
+		- download Your name from animeout
+		- download call of duty word war II
+		- etc...
 - ##### Play Media Engine
-Play media from memory or download it if not found:
-	- play Avengers EndGame
-	- etc...
+	- Play media from memory or download it if not found:
+		- play Avengers EndGame
+		- etc...
 - ##### Send Message Engine
-Send any text message on telegram:
-	- send a message to john on telegram
-	- send a message on telegram
-	- send a message to john
-	- send hello on telegram
-	- send a message
-	- etc...
+	- Send any text message on telegram:
+		- send a message to john on telegram
+		- send a message on telegram
+		- send a message to john
+		- send hello on telegram
+		- send a message
+		- etc...
 - ##### Reminder Engine
-Set a reminder for anytime:
-	- remind me to do my homeworks
-	- set a reminder for 30 minutes later
-	- remind me at 10
-	- etc...
+	- Set a reminder for anytime:
+		- remind me to do my homeworks
+		- set a reminder for 30 minutes later
+		- remind me at 10
+		- etc...
 - ##### Manage reminders
-To manage your reminders first say/write manage my reminders than say:
-	- show me my reminders list
-	- delete my last reminder
-	- delete a reminder
-	- edit my last reminder
-	- edit my reminder
-	- etc...
+	- To manage your reminders first say/write manage my reminders than say:
+		- show me my reminders list
+		- delete my last reminder
+		- delete a reminder
+		- edit my last reminder
+		- edit my reminder
+		- etc...
 - ##### Translate Engine
-Translate any language to persian/english/french/japanese:
-	- translate hello world to persian
-	- etc...
+	- Translate any language to persian/english/french/japanese:
+		- translate hello world to persian
+		- etc...
 - ##### Type anything
-Type any word on Desktop:
-	- writedown hello my friend
-	- type hello world
-	- etc...
+	- Type any word on Desktop:
+		- writedown hello my friend
+		- type hello world
+		- etc...
 - ##### App Control
-- Open an App
-	- open telegram
-- Close current opened app:
-	- close current app
-	- close this app
-	- etc...
+	- Open an App
+		- open telegram
+	- Close current opened app:
+		- close current app
+		- close this app
+		- etc...
 - ##### Volume Control
-Set system volume:
-	- set the volume 10% higher
-	- adjust volume 20 percent lower
-	- etc...
+	- Set system volume:
+		- set the volume 10% higher
+		- adjust volume 20 percent lower
+		- etc...
 - ##### Keyboard Shortcut
-Check AppConfig.json file for more details
-	- To Rise Command box, press **ctrl+shift+t**
-	- To Start Voice Recognition, press **ctrl+shift+e**
-	- To write your saved shortcut, press **ctrl+e+[1,2,3,...,9]**
+	- Check AppConfig.json file for more details
+		- To Rise Command box, press **ctrl+shift+t**
+		- To Start Voice Recognition, press **ctrl+shift+e**
+		- To write your saved shortcut, press **ctrl+e+[1,2,3,...,9]**
 - ##### Flexibility
-Commands are 90% Flexible
-Feels free to use these commands As you wish
+	- Commands are 90% Flexible
+	- Feels free to use these commands As you wish
 	- You can say download a media instaed of saying media name
 	- or say remind me to do my homework at 10
 	- or say remind me to do my homework 10 mins later
