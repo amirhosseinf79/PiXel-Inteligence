@@ -1,7 +1,7 @@
 # PiXeL Intelligence
 ![](https://img.shields.io/github/tag/PiXel-Intelligence/editor.md.svg) ![](https://img.shields.io/github/release/PiXel-Intelligence/editor.md.svg) ![](https://img.shields.io/github/issues/PiXel-Intelligence/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
 
-<br><br>A Small smart assistant. Anytime, Everywhere :)
+A Small smart assistant. Anytime, Everywhere :)
 
 ## Command & Toturials
 - [App Features](#app-features)
