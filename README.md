@@ -31,6 +31,12 @@ A small smart Assistant. Anytime, Everywhere :)
 	* [main](#main)
 	* [movie_suggestion](#movie-suggestion)
 
+## Requirements
+- Chrome Browser
+- Internet Download Manager
+- Pot Player
+</br>App can run without above requirements but for some actions like open links and playing media needs above applications.
+
 ## App Features
 - ##### Introduce
 	- Ask PiXel to introduce itself:
