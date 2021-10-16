@@ -1,12 +1,6 @@
 # PiXeL Intelligence
 ![](https://img.shields.io/github/tag/PiXel-Intelligence/editor.md.svg) ![](https://img.shields.io/github/release/PiXel-Intelligence/editor.md.svg) ![](https://img.shields.io/github/issues/PiXel-Intelligence/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
 
-**Command & Toturals**
-
-[TOCM]
-
-[TOC]
-
 ## App Features
 - ##### Introduce
 Ask PiXel to introduce itself:
