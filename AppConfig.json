@@ -18,6 +18,7 @@
 	},
 
 	"web":{
+		"search_region": "IR",
 		"file_type": "zip|rar|mp3|apk|mkv|mp4|m4a",
 		"q_filter": "720",
 		"ignore": "",
@@ -36,12 +37,11 @@
 			"noise": "0.5",
 			"timeout": "3",
 			"voice_key": "ctrl+shift+e",
-			"text_key": "ctrl+*",
+			"text_key": "ctrl+shift+t",
 			"time_limit": "60"
 		},
 		"keyboard_shortcuts":{
 			"start": "ctrl+e",
-			"toggle_check": "ctrl+e+%num%",
 			"shortcut":[
 			"amirhosseinfarrokhmehr1379@gmail.com",
 			"amirhosseinfr79@gmail.com",
