@@ -5,6 +5,7 @@
 A small smart Assistant. Anytime, Everywhere :)
 
 ## Command & Toturials
+- [Requirements](#requirements)
 - [App Features](#app-features)
 	- [Introduce](#introduce)
 	- [Search Engine](#search-engine)
@@ -35,7 +36,8 @@ A small smart Assistant. Anytime, Everywhere :)
 - Chrome Browser
 - Internet Download Manager
 - Pot Player
-</br>App can run without above requirements but for some actions like open links and playing media needs above applications.
+
+App can run without above requirements but for some actions like open links and playing medias needs above applications.
 
 ## App Features
 - ##### Introduce
