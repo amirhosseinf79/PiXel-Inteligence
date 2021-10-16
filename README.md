@@ -2,10 +2,31 @@
 ![](https://img.shields.io/github/tag/PiXel-Intelligence/editor.md.svg) ![](https://img.shields.io/github/release/PiXel-Intelligence/editor.md.svg) ![](https://img.shields.io/github/issues/PiXel-Intelligence/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
 
 ## Command & Toturals
+- [App Features](#app-features)
+      - [Introduce](#introduce)
+      - [Search Engine](#search-engine)
+      - [Ask Engine](#ask-engine)
+      - [Download Engine:](#download-engine-)
+      - [Play Media Engine](#play-media-engine)
+      - [Send Message Engine](#send-message-engine)
+      - [Reminder Engine](#reminder-engine)
+      - [Manage reminders](#manage-reminders)
+      - [Translate Engine](#translate-engine)
+      - [Type anything](#type-anything)
+      - [App Control](#app-control)
+      - [Volume Control](#volume-control)
+      - [Keyboard Shortcut](#keyboard-shortcut)
+      - [Flexibility](#flexibility)
+- [AppConfig toturials:](#appconfig-toturials-)
+  * [AppConfig Sections](#appconfig-sections)
+  * [PATH](#path)
+  * [AnimeOut](#animeout)
+  * [web](#web)
+  * [main](#main)
+  * [movie_suggestion](#movie-suggestion)
 
-[TOCM]
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
-[TOC]
 
 ## App Features
 - ##### Introduce
