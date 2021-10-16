@@ -123,75 +123,75 @@ AppConfig Has 5 Sections.
 5. **movie_suggestion:** This is for Movie suggestion system settings
 
 ### PATH
-Here you can put your Apps Destination.
-**This is necessary to add them to make Assistant work currectly.**
-**POT**: Pot player Destination to play media.
-**IDM**: Internet Download Manager to put Downloaded links.
-**telegram**: Telegram path to send message on telegram.
-**whatsApp**: whatsApp path to send message on whatsApp.
-**save_to**: Your downloaded files Destination.
+Here you can put your Apps Destination.</br>
+**This is necessary to add them to make Assistant work currectly.**</br>
+**POT**: Pot player Destination to play media.</br>
+**IDM**: Internet Download Manager to put Downloaded links.</br>
+**telegram**: Telegram path to send message on telegram.</br>
+**whatsApp**: whatsApp path to send message on whatsApp.</br>
+**save_to**: Your downloaded files Destination.</br>
 **media**: Put your media folder Destinations (one or more) to play your medias
 
 ### AnimeOut
-- **q_filter**:
-Here you can set your anime quality filter.
-Can be "720" or "1080" or "720|1080"
+- **q_filter**:</br>
+Here you can set your anime quality filter.</br>
+Can be "720" or "1080" or "720|1080"</br>
 
 ### web
-**Filters Values support Regular Expression.**
-- **search_region**:
-Choose Your Browser Region.
-Value Can be "IR" or etc...
-- **file_type**: 
-You can **Filter** which file type you want to download
-Value Can be "mkv", "rar", "zip", "mkv|zip" or etc...
-- **q_filter**: 
-You can **Filter** which Movie quality you want to download.
-Value Can be "720" or "1080" or "720|1080"
-- **ignore**: 
-You can **Filter** which link should be skipped.
-Value Can be anything
-- **auto_open**: 
-Choose Assistant can open reviewed links on browser or not
-Value Can be "True" or "False"
-- **search_pickRate**: 
-Choose how many link fetch at one try:
-(Less number less speed but More Safe for your ip)
-**Highly Recomended to choose at most 10 links**
-Value Can be any number
-- **search_limit**: 
-Choose how many link can be collected in total:
-(Less number less speed but More Safe for your ip)
-**Highly Recomended to choose at most 15 links**
-Value Can be any number
+**Filters Values support Regular Expression.**</br>
+- **search_region**:</br>
+Choose Your Browser Region.</br>
+Value Can be "IR" or etc...</br>
+- **file_type**: </br>
+You can **Filter** which file type you want to download</br>
+Value Can be "mkv", "rar", "zip", "mkv|zip" or etc...</br>
+- **q_filter**: </br>
+You can **Filter** which Movie quality you want to download.</br>
+Value Can be "720" or "1080" or "720|1080"</br>
+- **ignore**: </br>
+You can **Filter** which link should be skipped.</br>
+Value Can be anything</br>
+- **auto_open**: </br>
+Choose Assistant can open reviewed links on browser or not</br>
+Value Can be "True" or "False"</br>
+- **search_pickRate**: </br>
+Choose how many link fetch at one try:</br>
+(Less number less speed but More Safe for your ip)</br>
+**Highly Recomended to choose at most 10 links**</br>
+Value Can be any number</br>
+- **search_limit**: </br>
+Choose how many link can be collected in total:</br>
+(Less number less speed but More Safe for your ip)</br>
+**Highly Recomended to choose at most 15 links**</br>
+Value Can be any number</br>
 
 ### main
-- **voice**:
-	- **toggle**: toggle Assistant Voice on/off
-- **speech**:
-	- **voice_key**:
-		- key shortcut to start Voice Recognition
-		- Value Can be like: "ctrl+shift+e"
-	- **text_key**: 
-		- key shortcut to Rise Command text box
-		- Value Can be like: "ctrl+shift+t"
-- **keyboard_shortcuts**:
-	- **start**:
-		- key shortcut to start keyboard checking and Write shortcut
-		- Value Can be like: "ctrl+e"
-	- **shortcut**:
-		- Texts you want to make them shortcut to write faster
-		- Value Can be anything you want to write fast
-		 **Maximum 9 Shortcut**
+- **voice**:</br>
+	- **toggle**: toggle Assistant Voice on/off</br>
+- **speech**:</br>
+	- **voice_key**:</br>
+		- key shortcut to start Voice Recognition</br>
+		- Value Can be like: "ctrl+shift+e"</br>
+	- **text_key**: </br>
+		- key shortcut to Rise Command text box</br>
+		- Value Can be like: "ctrl+shift+t"</br>
+- **keyboard_shortcuts**:</br>
+	- **start**:</br>
+		- key shortcut to start keyboard checking and Write shortcut</br>
+		- Value Can be like: "ctrl+e"</br>
+	- **shortcut**:</br>
+		- Texts you want to make them shortcut to write faster</br>
+		- Value Can be anything you want to write fast</br>
+		 **Maximum 9 Shortcut**</br>
 
-**Othe Values should be kepp by default**
+**Othe Values should be kepp by default**</br>
 ### movie_suggestion
-- **start_year**:
-	- The year you want to search from then
-	- Value Can be any year from 1900
-- **end_year**:
-	- The year you want to search until then
-	- Value Can be any year from 1910
-- **rating**:
-	- Video Rating in imdb
-	- Value Can be any number from 3 to 9
+- **start_year**:</br>
+	- The year you want to search from then</br>
+	- Value Can be any year from 1900</br>
+- **end_year**:</br>
+	- The year you want to search until then</br>
+	- Value Can be any year from 1910</br>
+- **rating**:</br>
+	- Video Rating in imdb</br>
+	- Value Can be any number from 3 to 9</br>
