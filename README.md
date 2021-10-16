@@ -55,6 +55,8 @@ A small smart Assistant. Anytime, Everywhere :)
 		- download Lovely from YouTube
 		- download Your name from animeout
 		- download call of duty word war II
+		- download a random action movie
+		- download random action comedy movie
 		- etc...
 - ##### Play Media Engine
 	- Play media from memory or download it if not found:
@@ -134,7 +136,7 @@ A small smart Assistant. Anytime, Everywhere :)
 	- or say remind me to do my homework 10 mins later
 	- or say remind me for 10 minutes later
 	- or say remind me 10 minutes later
-	- and etc...
+	- and etc for every commands...
 
 ## AppConfig toturials:
 AppConfig Has 5 Sections.
