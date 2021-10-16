@@ -15,6 +15,8 @@ A small smart Assistant. Anytime, Everywhere :)
 	- [Send Message Engine](#send-message-engine)
 	- [Reminder Engine](#reminder-engine)
 	- [Manage reminders](#manage-reminders)
+	- [Favorite system](#favorite-system)
+	- [Movie Suggestion system](#movie-suggestion-system)
 	- [Translate Engine](#translate-engine)
 	- [Type anything](#type-anything)
 	- [App Control](#app-control)
@@ -79,6 +81,24 @@ A small smart Assistant. Anytime, Everywhere :)
 		- delete a reminder
 		- edit my last reminder
 		- edit my reminder
+		- etc...
+- ##### Favorite system
+	- You can teach bot your favorites:
+		- learn that my favorite food is pizza
+		- add pizza to my favorite foods
+		- my favorite food is pizza
+		- delete pizza frm my favorite foods
+		- whats my favorite food
+		- tell me about my favorite food
+		- etc...
+- ##### Movie Suggestion system
+	- You Can get any movie Suggestion:
+		- suggest me action comedy movie
+		- recommend me a action movie
+		- suggest me action or comdy movie
+		- suggest me action and comedy movie
+		- recommend me a action or comdy movie
+		- suggest me a movie
 		- etc...
 - ##### Translate Engine
 	- Translate any language to persian/english/french/japanese:
