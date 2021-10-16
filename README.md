@@ -1,6 +1,4 @@
-# PiXeL Intelligence
-![](https://img.shields.io/github/tag/PiXel-Intelligence/editor.md.svg) ![](https://img.shields.io/github/release/PiXel-Intelligence/editor.md.svg) ![](https://img.shields.io/github/issues/PiXel-Intelligence/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
-
+# PiXeL Intelligence v0.3.0-Beta
 ## Under Developement (90% to Release)
 **(Beta Testers Only)**</br>
 
