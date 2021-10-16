@@ -17,6 +17,7 @@
 	- [Volume Control](#volume-control)
 	- [Keyboard Shortcut](#keyboard-shortcut)
 	- [Flexibility](#flexibility)
+
 - [AppConfig toturials:](#appconfig-toturials-)
 	* [AppConfig Sections](#appconfig-sections)
 	* [PATH](#path)
@@ -24,9 +25,6 @@
 	* [web](#web)
 	* [main](#main)
 	* [movie_suggestion](#movie-suggestion)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
 
 ## App Features
 - ##### Introduce
