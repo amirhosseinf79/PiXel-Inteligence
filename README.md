@@ -151,6 +151,7 @@ AppConfig Has 5 Sections.
 ### PATH
 Here you can put your Apps Destination.</br>
 **This is necessary to add them to make Assistant work currectly.**</br>
+**You can Add these PATHs using setConfig.exe executable file.</br><br>
 **POT**: Pot player Destination to play media.</br>
 **IDM**: Internet Download Manager to put Downloaded links.</br>
 **telegram**: Telegram path to send message on telegram.</br>
