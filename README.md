@@ -1,7 +1,7 @@
 # PiXeL Intelligence
 ![](https://img.shields.io/github/tag/PiXel-Intelligence/editor.md.svg) ![](https://img.shields.io/github/release/PiXel-Intelligence/editor.md.svg) ![](https://img.shields.io/github/issues/PiXel-Intelligence/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
 
-## Command & Toturals
+## Command & Toturials
 - [App Features](#app-features)
 	- [Introduce](#introduce)
 	- [Search Engine](#search-engine)
