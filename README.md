@@ -37,8 +37,8 @@ A small smart Assistant. Anytime, Everywhere :)
 - Chrome Browser
 - Internet Download Manager
 - Pot Player
-- Telegram
-- whatsApp
+- Telegram Desktop
+- whatsApp Desktop
 
 App can run without above requirements but for some actions like open links and playing medias needs above applications.
 
