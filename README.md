@@ -11,7 +11,7 @@ A small smart Assistant. Anytime, Everywhere :)
 	- [Joke Engine](#joke-engine)
 	- [Search Engine](#search-engine)
 	- [Ask Engine](#ask-engine)
-	- [Download Engine:](#download-engine-)
+	- [Download Engine:](#download-engine)
 	- [Play Media Engine](#play-media-engine)
 	- [Send Message Engine](#send-message-engine)
 	- [Reminder Engine](#reminder-engine)
@@ -61,7 +61,7 @@ App can run without above requirements but for some actions like open links and 
 		- who is Jason momoa
 		- what is python
 		- etc...
-- ##### Download Engine:
+- ##### Download Engine
 	- Download anything from aimeout, youtube and anywhere under the internet:
 		- download Lovely from YouTube
 		- download Your name from animeout
