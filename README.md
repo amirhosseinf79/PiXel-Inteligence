@@ -144,12 +144,13 @@ App can run without above requirements but for some actions like open links and 
 - ##### Flexibility
 	- Commands are 90% Flexible
 	- Feels free to use these commands As you wish
-	- You can say download a media instaed of saying media name
-	- or say remind me to do my homework at 10
-	- or say remind me to do my homework 10 mins later
-	- or say remind me for 10 minutes later
-	- or say remind me 10 minutes later
-	- and etc for every commands...
+	- You can say download/play a media instaed of saying media name
+	- More Examples:
+		- remind me to do my homework at 10
+		- remind me to do my homework 10 mins later
+		- remind me for 10 minutes later
+		- remind me 10 minutes later
+		- and etc for every commands...
 
 ## AppConfig toturials
 AppConfig Has 5 Sections.
