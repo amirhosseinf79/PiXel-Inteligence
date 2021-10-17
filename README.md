@@ -174,12 +174,13 @@ Here you can put your Apps Destination.</br>
 **media**: Put your media folder Destinations (one or more) to play your medias
 
 ### AnimeOut
+**Filter Values support Regular Expression.**</br>
 - **q_filter**:</br>
 Here you can set your anime quality filter.</br>
 Can be "720" or "1080" or "720|1080"</br>
 
 ### web
-**Filters Values support Regular Expression.**</br>
+**Filter Values support Regular Expression.**</br>
 - **search_region**:</br>
 Choose Your Browser Region.</br>
 Value Can be "IR" or etc...</br>
