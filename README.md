@@ -25,7 +25,7 @@ A small smart Assistant. Anytime, Everywhere :)
 	- [Keyboard Shortcut](#keyboard-shortcut)
 	- [Flexibility](#flexibility)
 
-- [AppConfig toturials:](#appconfig-toturials-)
+- [AppConfig toturials](#appconfig-toturials)
 	* [AppConfig Sections](#appconfig-sections)
 	* [PATH](#path)
 	* [AnimeOut](#animeout)
@@ -151,7 +151,7 @@ App can run without above requirements but for some actions like open links and 
 	- or say remind me 10 minutes later
 	- and etc for every commands...
 
-## AppConfig toturials:
+## AppConfig toturials
 AppConfig Has 5 Sections.
 
 ### AppConfig Sections
@@ -163,8 +163,8 @@ AppConfig Has 5 Sections.
 
 ### PATH
 Here you can put your Apps Destination.</br>
-**This is necessary to add them to make Assistant work currectly.**</br>
-**You can Add these PATHs using setConfig.exe executable file.**</br><br>
+**This is necessary to add them to make Assistant work correctly.**</br>
+**You can Add these PATHs easly in Application First Start.**</br><br>
 **POT**: Pot player Destination to play media.</br>
 **IDM**: Internet Download Manager to put Downloaded links.</br>
 **telegram**: Telegram path to send message on telegram.</br>
