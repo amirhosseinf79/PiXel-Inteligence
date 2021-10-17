@@ -109,10 +109,10 @@ App can run without above requirements but for some actions like open links and 
 - ##### Movie Suggestion system
 	- You Can get any movie Suggestion:
 		- suggest me action comedy movie
-		- recommend me a action movie
+		- recommend me an action movie
 		- suggest me action or comdy movie
 		- suggest me action and comedy movie
-		- recommend me a action or comdy movie
+		- recommend me a dram movie
 		- suggest me a movie
 		- etc...
 - ##### Translate Engine
