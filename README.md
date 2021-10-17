@@ -225,7 +225,7 @@ Value Can be any number</br>
 		- Value Can be anything you want to write fast</br>
 		 **Maximum 9 Shortcut**</br>
 
-	**Othe Values should be kepp by default**</br>
+	**Othe Values should not be changed**</br>
 ### movie_suggestion
 - **start_year**:</br>
 	- The year you want to search from then</br>
