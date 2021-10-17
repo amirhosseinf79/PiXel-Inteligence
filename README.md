@@ -1,5 +1,5 @@
 # PiXeL Intelligence v0.3.0-Beta
-## Under Developement (90% to Release)
+## Under Developement
 **(Beta Testers Only)**</br>
 
 A small smart Assistant. Anytime, Everywhere :)
