@@ -8,6 +8,7 @@ A small smart Assistant. Anytime, Everywhere :)
 - [Requirements](#requirements)
 - [App Features](#app-features)
 	- [Introduce](#introduce)
+	- [Joke Engine](#joke-engine)
 	- [Search Engine](#search-engine)
 	- [Ask Engine](#ask-engine)
 	- [Download Engine:](#download-engine-)
@@ -44,6 +45,9 @@ App can run without above requirements but for some actions like open links and 
 	- Ask PiXel to introduce itself:
 		- introduce yourself
 		- etc...
+- ##### Joke Engine
+	- Ask Assistant to tell you a Joke:
+		- tell me a joke
 - ##### Search Engine
 	- Search anything on youtube, wikipedia, imdb and anywhere:
 		- Search python toturial on youtube
