@@ -91,6 +91,8 @@ App can run without above requirements but for some actions like open links and 
 		- edit my last reminder
 		- edit my reminder
 		- etc...
+	- Or to get reminder full list say whats on my reminders
+
 - ##### Favorite system
 	- You can teach bot your favorites:
 		- learn that my favorite food is pizza
