@@ -1,0 +1,175 @@
+<title>Control ThisPC</title>
+<link rel="icon" href="{{ url_for('static',filename='icon/icon.ico') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='remote/PC.css') }}" media="only screen and (min-width: 1001px)">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='remote/MOB.css') }}" media="only screen and (max-width: 1000px)">
+<meta name="viewport" content="width=device-wi  dth, initial-scale=1">
+<script src="{{ url_for('static',filename='remote/JQ.js') }}"></script>
+<script>
+    function assist()
+    {
+        var value = document.getElementById('note-textarea').value;
+        window.open('/pixel/'+value,'frame')
+    }
+
+    function ajax()
+    {
+        $("#first").load("/position/");
+    }
+    setInterval(ajax,250);
+
+    function loadScreen()
+    {
+        $("#screen").load(" #obj");
+    }
+    function display()
+    {
+        setTimeout(loadScreen,550)
+    }
+</script>
+<style>
+    body{
+        color: white;
+    }
+    input{
+        background-color: #f9f9f9;
+    }
+    button{
+        background-color: #f9f9f9;
+        border: solid 1px black;
+    }
+    select{
+        background-color: #f9f9f9;
+    }
+</style>
+<body style="background-color: #333333">
+<div id="first">
+</div>
+<div id="screen">
+    <div id="obj">
+        <img src="{{ url_for('static',filename='screen/'+screen['name']) }}" class="screen" style="z-index: 10">
+        <div class="position" style="z-index: 11"><div class="pointer"></div></div>
+        <button onclick="loadScreen()" class="reload" style="background-color: #436CE0;color: white">D</button>
+    </div>
+</div>
+<center>
+    <iframe name="frame" hidden></iframe>
+    <form class="form" method="post" action="/upload/" target="frame" enctype="multipart/form-data">
+    <div class="app">
+    <a style="color: white" href="/waiting/" target="_self" onclick="window.open('/pixel/','_blank','width=500,height=700,top=100,left=250')">
+        GoTo Powel Assistant
+    </a>
+    <br><br>
+    </div>
+    <input type="text" class="key2" style="background-color: white" name="path" placeholder="File Path" list="paths">
+    <datalist id="paths">
+        {% for path in pathes %}
+            <option value="{{ path }}">{{ path }}</option>
+        {% endfor %}
+    </datalist>
+    <div class="key2" style="background-color: #436CE0;color: white">
+        <div style="position: absolute;margin-top: 15px;margin-left: 105px;z-index: 0">Choose file</div>
+        <input type="file" class="key2" style="background-color: white;color: black;opacity: 0;z-index: 1" name="upfile" placeholder="Upload File">
+    </div>
+    <input type="submit" class="key2" name="sendfile" value="Send File">
+    <br><br>
+</form>
+
+<form class="form2" method="get" action="/task/" target="frame" enctype="multipart/form-data">
+    <textarea placeholder="paste what you want to write in computer" name="pastearea" class="textarea"></textarea>
+    <br><input type="submit" value="send Text" class="key2" name="sendtext" onclick="display()">
+    <br>
+    <input type="submit" value="Enter" class="key" name="enterkey" onclick="display()">
+    <input type="submit" value="backSpace" class="key" name="backspacekey" onclick="display()">
+    <input type="submit" value="Fa/En" class="key" name="languagekey" onclick="display()">
+    <br><br>
+    Len:
+    [<input type="radio" name="len" value="25">25]
+    [<input type="radio" name="len" value="50">50]
+    [<input type="radio" name="len" checked value="100">100]
+    [<input type="radio" name="len" value="500">500]
+    [<input type="radio" name="len" value="1000">1000]
+    <br>
+    <input type="submit" value="O" class="key" name="topleft">
+    <input type="submit" value="O" class="key" name="topcenter">
+    <input type="submit" value="O" class="key" name="topright">
+    <br>
+    <input type="submit" value="O" class="key" name="centerleft">
+    <input type="submit" value="Click" class="key" name="centercenter" onclick="display()">
+    <input type="submit" value="O" class="key" name="centerright">
+    <br>
+    <input type="submit" value="O" class="key" name="bottomleft">
+    <input type="submit" value="O" class="key" name="bottomcenter">
+    <input type="submit" value="O" class="key" name="bottomright">
+    <br>
+    <input type="submit" value="Double Click" class="key" name="doubleclick" onclick="display()">
+    <input type="submit" value="Right Click" class="key" name="rightclick" onclick="display()">
+    <input type="submit" value="Camera" class="key" name="opencamera" onclick="display()">
+    <br>
+    <input type="submit" value="scroll up" class="key" name="scrollup">
+    <input type="submit" value="scroll down" class="key" name="scrolldown">
+    <button onclick="window.open('/task/?closepannel=close','_self')" class="key">Close Pannel</button>
+    <br><br>
+    <select name="key1" class="key">
+        <option value="">nothing</option>
+        <option value="ctrl">ctrl</option>
+        <option value="shift">shift</option>
+        <option value="alt">alt</option>
+        <option value="fn">fn</option>
+        <option value="win">win</option>
+    </select>
+    <select name="key2" class="key">
+        <option value="ctrl">ctrl</option><option value="shift">shift</option>
+        <option value="alt">alt</option><option value="capslock">capslock</option>
+        <option value="tab">tab</option><option value="delete">delete</option>
+	    <option value="enter">enter</option><option value="win">win</option>
+        <option value="esc">esc</option>
+        <option value="prtscr">prtscr</option><option value="up">up</option>
+        <option value="down">down</option><option value="left">left</option>
+        <option value="left">right</option><option value="a">a</option>
+        <option value="r">r</option><option value="o">o</option>
+        <option value="x">x</option><option value="c">c</option>
+        <option value="v">v</option><option value="s">s</option>
+        <option value="w">w</option><option value="t">t</option>
+        <option value="z">z</option><option value="p">p</option>
+        <option value="f1">f1</option><option value="f2">f2</option>
+        <option value="f3">f3</option><option value="f4">f4</option>
+        <option value="f5">f5</option><option value="f6">f6</option>
+        <option value="f7">f7</option><option value="f8">f8</option>
+        <option value="f9">f9</option><option value="f10">f10</option>
+        <option value="f11">f11</option><option value="f12">f12</option>
+        <option value="`">`</option><option value="0">0</option>
+        <option value="1">1</option><option value="2">2</option>
+        <option value="3">3</option><option value="4">4</option>
+        <option value="5">5</option><option value="6">6</option>
+        <option value="7">7</option><option value="8">8</option>
+        <option value="9">9</option><option value="numlock">numlock</option>
+        <option value="num0">num0</option><option value="num1">num1</option>
+        <option value="num2">num2</option><option value="num3">num3</option>
+        <option value="num4">num4</option><option value="num5">num5</option>
+        <option value="num6">num6</option><option value="num7">num7</option>
+        <option value="num8">num8</option><option value="num9">num9</option>
+    </select>
+    <input type="submit" value="Do!" class="key" name="keyjob" onclick="display()">
+    <br><br>
+    <input type="submit" value="VolumeUp" class="key" name="volumeup">
+    <input type="submit" value="VolumeDown" class="key" style="text-align: center" name="volumedown">
+    <input type="submit" value="Mute" class="key" name="volumemute" onclick="display()">
+    <br>
+    <input type="submit" value="Play/Pause" class="key" name="playpause" onclick="display()">
+    <input type="submit" value="Backward" class="key" name="backward" onclick="display()">
+    <input type="submit" value="Forward" class="key" name="forward" onclick="display()">
+    <br><br>
+    <input type="submit" value="ESC" class="key" name="esckey" onclick="display()">
+    <input type="submit" value="WIN" class="key" name="winkey" onclick="display()">
+    <input type="submit" value="closeApp" class="key" name="closeapp" onclick="display()">
+    <br>
+    <input type="submit" value="lock PC" class="key" name="systemlock" onclick="display()">
+    <input type="submit" value="LogOut" class="key" name="systemlogoff" onclick="display()">
+    <input type="submit" value="shutDown" class="key" name="systemshutdown" onclick="display()">
+    <br>
+    <input type="submit" value="reStart" class="key" name="systemrestart" onclick="display()">
+    <input type="text" class="key" placeholder="time to shutDown" style="text-align: center;background-color: white" name="time">
+    <input type="submit" value="adjustTime" class="key" name="timertoshutdown" onclick="display()">
+</form>
+</center>
+</body>

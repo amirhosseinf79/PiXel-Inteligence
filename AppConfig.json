@@ -1,0 +1,57 @@
+{
+        "PATH": {
+                "POT": "C:\\Program Files\\DAUM\\PotPlayer\\PotPlayerMini64.exe",
+                "IDM": "C:\\Program Files (x86)\\Internet Download Manager\\IDMan.exe",
+                "telegram": "",
+                "whatsApp": "",
+                "save_to": "%app_dir%\\autoDownload",
+                "media": []
+        },
+        "AnimeOut": {
+                "q_filter": "720|1080"
+        },
+        "web": {
+                "search_region": "IR",
+                "file_type": "zip|rar|mp3|apk|mkv|mp4|m4a",
+                "q_filter": "",
+                "ignore": "",
+                "auto_open": "True",
+                "search_pickRate": "6",
+                "search_limit": "6"
+        },
+        "main": {
+                "voice": {
+                        "id": "0",
+                        "rate": "150",
+                        "toggle": "on"
+                },
+                "speech": {
+                        "noise": "0.5",
+                        "timeout": "3",
+                        "voice_key": "ctrl+shift+e",
+                        "text_key": "ctrl+shift+t",
+                        "time_limit": "60"
+                },
+                "keyboard_shortcuts": {
+                        "start": "ctrl+e",
+                        "shortcut": [
+                                "",
+                                "",
+                                ""
+                        ]
+                },
+                "telegram_send_key": "ctrl+enter",
+                "whatsApp_send_key": "enter",
+                "default_activity": "text"
+        },
+        "movie_suggestion": {
+                "start_year": "1900",
+                "end_year": "%now%",
+                "rating": "3"
+        },
+        "remote": {
+                "username": "admin",
+                "password": "admin",
+                "superuser": "admin"
+        }
+}

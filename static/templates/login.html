@@ -1,0 +1,17 @@
+<title>Login ThisPC</title>
+<link rel="icon" href="{{ url_for('static',filename='icon/icon.ico') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='remote/PC.css') }}" media="only screen and (min-width: 1001px)">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='remote/MOB.css') }}" media="only screen and (max-width: 1000px)">
+<meta name="viewport" content="width=device-wi  dth, initial-scale=1">
+<form method="get" class="loginf">
+    <center>
+    <input name="username" autocomplete="off" placeholder="username"><br>
+    <input type="password" name="password" placeholder="password"><br>
+    <input type="submit" value="login"><br>
+        {{ result }}
+        <br><br><br>
+    <a href="?loginwithnopass=1" style="font-family: Tahoma;text-decoration: none;color: black">
+        Login without user and pass!
+    </a>
+    </center>
+</form>

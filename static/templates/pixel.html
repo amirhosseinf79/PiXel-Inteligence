@@ -1,0 +1,146 @@
+<title>pwel assistant</title>
+<link rel="icon" href="{{ url_for('static',filename='icon/icon.ico') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='remote/PC.css') }}" media="only screen and (min-width: 1001px)">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='remote/MOB.css') }}" media="only screen and (max-width: 1000px)">
+<meta name="viewport" content="width=device-wi  dth, initial-scale=1">
+<script src="{{ url_for('static',filename='remote/JQ.js') }}"></script>
+<script>
+    function assist(){
+        var value = document.getElementById('note-textarea').value;
+        if (value!='')
+        {
+            document.getElementById('note-textarea').value='';
+            window.open('/pxl/r/?value='+value,'frame')
+        }
+    }
+    function reset()
+    {
+        document.getElementById('note-textarea').value='';
+    }
+    function task(text) {
+        document.getElementById('note-textarea').value=text;
+    }
+    function sLoad(){
+        $('#main').load(' #load');
+    }
+    setInterval(sLoad,1000)
+</script>
+<style>
+    @media screen and (max-width: 1000px) {
+        button{
+            background-color: #436CE0;
+            color: white;
+        }
+        #start-record-btn{
+            position: fixed;
+            bottom: 10px;
+            right: 2.5%;
+            border-radius: 0px 15px 15px 0px;
+            width: 31%;
+            height: 50px;
+            z-index: 10;
+        }
+        #pause-record-btn{
+            position: fixed;
+            bottom: 10px;
+            width: 31%;
+            left: 2.5%;
+            border-radius: 15px 0px 0px 15px;
+            height: 50px;
+            z-index: 10;
+        }
+        #send{
+            position: fixed;
+            bottom: 10px;
+            width: 31%;
+            left: 34.5%;
+            height: 100px;
+            height: 50px;
+            z-index: 10;
+        }
+        #close{
+            position: fixed;
+            top: 70px;
+            width: 95%;
+            left: 2.5%;
+            height: 50px;
+            border-radius: 0px 0px 15px 15px;
+        }
+        .textarea{
+            position: fixed;
+            top: 10px;
+            width: 95%;
+            left: 2.5%;
+            resize: none;
+            height: 60px;
+            border-radius: 15px 15px 0px 0px;
+            padding: 10px;
+            resize: none;
+        }
+        #back{
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background-color: white;
+        }
+        .quickCommands{
+            position: absolute;
+            top: 125px;
+            left: 0px;
+            width: 100%;
+            background-color: white;
+            padding-top: 5px;
+            padding-bottom: 65px;
+            z-index: 5;
+        }
+        .quickCommands button{
+            /*width: 90%;*/
+            padding: 10px;
+            margin: 5px;
+            border: solid 1px black;
+            border-radius: 5px;
+            background-color: white;
+            color: black;
+        }
+        .b2{
+            width: 45%;
+        }
+    }
+
+</style>
+<body style="background-color: #333333">
+<center><br><br><br>
+    <div style="z-index: -1" id="back"></div>
+    <input placeholder="your message to your assistant" id="note-textarea" class="textarea">
+    <br>
+    <button id="start-record-btn" class="key" title="Start Recording">Start Recognition</button>
+    <button id="pause-record-btn" onclick="reset()" class="key" title="reset textarea">Cancel Sending</button>
+    <button onclick="window.close()" class="key" id="close" title="close">close</button>
+    <br>
+    <button onclick="assist()" id="send" class="key2">Send to Assistant</button>
+    <script src="{{ url_for('static',filename='script.js') }}"></script>
+    <div class="quickCommands" id="main">
+        <div id="load"><center>
+        <button style="width: 60%" onclick="task('open \\')">Start an Application</button>
+        <button style="width: 30%" onclick="task('writedown ')">Type Something</button>
+        <button style="width: 45%" onclick="task('download  from animeout')">Download from animeout</button>
+        <button style="width: 45%" onclick="task('download ')">Download from everywhere</button>
+        <button style="width: 40%" onclick="task('remind me')">Set a Remminder</button>
+        <button style="width: 50%" onclick="task('download  from youtube')">Download from youtube</button>
+        <button style="width: 45%" onclick="task('suggest a movie')">Get movie suggestion</button>
+        <button style="width: 45%" onclick="task('send a message')">Send a message</button>
+        <hr color="black">
+            {% for suggestion in suggestions %}
+                <button class="b2" onclick="task('{{ suggestion }}')" value="">{{ suggestion }}</button>
+            {% endfor %}
+            {% if lastcontent %}
+                <button style="width: 93%" onclick="task('{{ lastcontent }}')" value="">{{ lastcontent }}</button>
+            {% endif %}
+        </center></div>
+    </div>
+    <iframe name="frame" hidden></iframe>
+</center>
+</body>
