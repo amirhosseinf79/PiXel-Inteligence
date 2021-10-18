@@ -154,6 +154,19 @@ App can run without above requirements but for some actions like open links and 
 		- remind me 10 minutes later
 		- and etc for every commands...
 
+## Remote Control over Http
+You can Controll your PC & Assistant on your web browser!</br>
+Just type your ipv4 Address (192.168.1.* - your local ip address) on your browser to control your assistant anywhere!</br>
+**if you want to use this feature from your phone, you need to unblock port 5050 on your firewall**
+### Features
+- Controll PC and share Screen
+	- View your PC Screen
+	- Controll mouse & Keyboard
+	- Share files from phone to your computer<br>
+
+- Access PiXeL Intelligence from web
+	- Send your commands over the http
+
 ## AppConfig toturials
 AppConfig Has 5 Sections.
 
