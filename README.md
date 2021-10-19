@@ -1,5 +1,5 @@
 # Welcome to PiXeL Intelligence
-Last version: 0.5.1-Beta<br><br>
+Last version: v0.5.1-Beta<br><br>
 
 A small smart Assistant. Anytime, Everywhere :)<br><br>
 
