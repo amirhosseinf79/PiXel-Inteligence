@@ -44,7 +44,7 @@ A small smart Assistant. Anytime, Everywhere :)
 App can run without above requirements but for some actions like open links and playing medias needs above applications.
 
 ### System Specs
-- Any Windows computer that can run telegram and chrome :D
+- a Windows computer that can run telegram and chrome :D
 
 ## App Features
 - ##### Introduce
