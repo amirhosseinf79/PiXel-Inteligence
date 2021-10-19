@@ -1,4 +1,4 @@
-# PiXeL Intelligence v0.3.0-Beta
+# PiXeL Intelligence v0.5.1-Beta
 ## Under Developement
 **(Beta Testers Only)**</br>
 
