@@ -3,9 +3,8 @@ Last version: 0.5.1-Beta<br><br>
 
 A small smart Assistant. Anytime, Everywhere :)<br><br>
 
-Thanks for reading this toturial.<br>
-if you have any problem of using app contact me on [Telegram](https://t.me/mirhosseinf79)<br><br>
-
+Thank you for reading this toturial.<br>
+if you have any problem of using app contact me on [Telegram](https://t.me/mirhosseinf79)<br>
 **(this version of program is under development and made for beta testers)**<br>
 
 ## Command & Tutorials
