@@ -41,7 +41,10 @@ A small smart Assistant. Anytime, Everywhere :)
 - Telegram Desktop
 - whatsApp Desktop
 
-App can run without above requirements but for some actions like open links and playing medias needs above applications.
+</br>	App can run without above requirements but for some actions like open links and playing medias needs above applications.
+
+### System Specs
+- Any Windows computer that can run telegram and chrome :D
 
 ## App Features
 - ##### Introduce
@@ -77,7 +80,7 @@ App can run without above requirements but for some actions like open links and 
 		- play Avengers EndGame
 		- etc...
 - ##### Send Message Engine
-	- Send any text message on telegram:
+	- Send any text message on telegram and whatsApp Desktop:
 		- send a message to john on telegram
 		- send a message on telegram
 		- send a message to john
