@@ -159,8 +159,8 @@ App can run without above requirements but for some actions like open links and 
 		- and etc for every commands...
 
 ## Remote Control over Http
-You can Controll your PC & Assistant on your web browser!</br>
-Just type your ipv4 Address (192.168.1.* - your local ip address) on your browser to control your assistant anywhere!</br>
+You can Controll your PC & Assistant on your web browser!<br>
+Just type your ipv4 Address (192.168.1.* - your local ip address) on your browser to control your assistant anywhere!<br>
 **if you want to use this feature from your phone, you need to unblock port 5050 on your firewall**
 ### Features
 - Controll PC and share Screen
@@ -182,77 +182,77 @@ AppConfig Has 5 Sections.
 5. **movie_suggestion:** This is for Movie suggestion system settings
 
 ### PATH
-Here you can put your Apps Destination.</br>
-**This is necessary to add them to make Assistant work correctly.**</br>
-**You can Add these PATHs easly in Application First Start.**</br><br>
-**POT**: Pot player Destination to play media.</br>
-**IDM**: Internet Download Manager to put Downloaded links.</br>
-**telegram**: Telegram path to send message on telegram.</br>
-**whatsApp**: whatsApp path to send message on whatsApp.</br>
-**save_to**: Your downloaded files Destination.</br>
+Here you can put your Apps Destination.<br>
+**This is necessary to add them to make Assistant work correctly.**<br>
+**You can Add these PATHs easly in Application First Start.**<br><br>
+**POT**: Pot player Destination to play media.<br>
+**IDM**: Internet Download Manager to put Downloaded links.<br>
+**telegram**: Telegram path to send message on telegram.<br>
+**whatsApp**: whatsApp path to send message on whatsApp.<br>
+**save_to**: Your downloaded files Destination.<br>
 **media**: Put your media folder Destinations (one or more) to play your medias
 
 ### AnimeOut
-**Filter Values support Regular Expression.**</br>
-- **q_filter**:</br>
-Here you can set your anime quality filter.</br>
-Can be "720" or "1080" or "720|1080"</br>
+**Filter Values support Regular Expression.**<br>
+- **q_filter**:<br>
+Here you can set your anime quality filter.<br>
+Can be "720" or "1080" or "720|1080"<br>
 
 ### web
-**Filter Values support Regular Expression.**</br>
-- **search_region**:</br>
-Choose Your Browser Region.</br>
-Value Can be "IR" or etc...</br>
-- **file_type**: </br>
-You can **Filter** which file type you want to download</br>
-Value Can be "mkv", "rar", "zip", "mkv|zip" or etc...</br>
-- **q_filter**: </br>
-You can **Filter** which Movie quality you want to download.</br>
-Value Can be "720" or "1080" or "720|1080"</br>
-- **ignore**: </br>
-You can **Filter** which link should be skipped.</br>
-Value Can be anything</br>
-- **auto_open**: </br>
-Choose Assistant can open reviewed links on browser or not</br>
-Value Can be "True" or "False"</br>
-- **search_pickRate**: </br>
-Choose how many link fetch at one try:</br>
-(Less number less speed but More Safe for your ip)</br>
-**Highly Recomended to choose at most 10 links**</br>
-Value Can be any number</br>
-- **search_limit**: </br>
-Choose how many link can be collected in total:</br>
-(Less number less speed but More Safe for your ip)</br>
-**Highly Recomended to choose at most 15 links**</br>
-Value Can be any number</br>
+**Filter Values support Regular Expression.**<br>
+- **search_region**:<br>
+Choose Your Browser Region.<br>
+Value Can be "IR" or etc...<br>
+- **file_type**: <br>
+You can **Filter** which file type you want to download<br>
+Value Can be "mkv", "rar", "zip", "mkv|zip" or etc...<br>
+- **q_filter**: <br>
+You can **Filter** which Movie quality you want to download.<br>
+Value Can be "720" or "1080" or "720|1080"<br>
+- **ignore**: <br>
+You can **Filter** which link should be skipped.<br>
+Value Can be anything<br>
+- **auto_open**: <br>
+Choose Assistant can open reviewed links on browser or not<br>
+Value Can be "True" or "False"<br>
+- **search_pickRate**: <br>
+Choose how many link fetch at one try:<br>
+(Less number less speed but More Safe for your ip)<br>
+**Highly Recomended to choose at most 10 links**<br>
+Value Can be any number<br>
+- **search_limit**: <br>
+Choose how many link can be collected in total:<br>
+(Less number less speed but More Safe for your ip)<br>
+**Highly Recomended to choose at most 15 links**<br>
+Value Can be any number<br>
 
 ### main
-- **voice**:</br>
-	- **toggle**: toggle Assistant Voice on/off</br>
-- **speech**:</br>
-	- **voice_key**:</br>
-		- key shortcut to start Voice Recognition</br>
-		- Value Can be like: "ctrl+shift+e"</br>
-	- **text_key**: </br>
-		- key shortcut to Rise Command text box</br>
-		- Value Can be like: "ctrl+shift+t"</br>
-- **keyboard_shortcuts**:</br>
-	- **start**:</br>
-		- key shortcut to start keyboard checking and Write shortcut</br>
-		- Value Can be like: "ctrl+e"</br>
-	- **shortcut**:</br>
-		- Texts you want to make them shortcut to write faster</br>
-		- Value Can be anything you want to write fast</br>
-		 **Maximum 9 Shortcut**</br>
+- **voice**:<br>
+	- **toggle**: toggle Assistant Voice on/off<br>
+- **speech**:<br>
+	- **voice_key**:<br>
+		- key shortcut to start Voice Recognition<br>
+		- Value Can be like: "ctrl+shift+e"<br>
+	- **text_key**: <br>
+		- key shortcut to Rise Command text box<br>
+		- Value Can be like: "ctrl+shift+t"<br>
+- **keyboard_shortcuts**:<br>
+	- **start**:<br>
+		- key shortcut to start keyboard checking and Write shortcut<br>
+		- Value Can be like: "ctrl+e"<br>
+	- **shortcut**:<br>
+		- Texts you want to make them shortcut to write faster<br>
+		- Value Can be anything you want to write fast<br>
+		 **Maximum 9 Shortcut**<br>
 
-	**Othe Values should not be changed**</br>
+	**Othe Values should not be changed**<br>
 ### movie_suggestion
-- **start_year**:</br>
-	- The year you want to search from then</br>
-	- Value Can be any year from 1900</br>
-- **end_year**:</br>
-	- The year you want to search until then</br>
-	- Value Can be any year from 1910</br>
-- **rating**:</br>
-	- Video Rating in imdb</br>
-	- Value Can be any number from 3 to 9</br>
+- **start_year**:<br>
+	- The year you want to search from then<br>
+	- Value Can be any year from 1900<br>
+- **end_year**:<br>
+	- The year you want to search until then<br>
+	- Value Can be any year from 1910<br>
+- **rating**:<br>
+	- Video Rating in imdb<br>
+	- Value Can be any number from 3 to 9<br>
