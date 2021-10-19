@@ -41,7 +41,7 @@ A small smart Assistant. Anytime, Everywhere :)
 - Telegram Desktop
 - whatsApp Desktop
 
-</br>	App can run without above requirements but for some actions like open links and playing medias needs above applications.
+App can run without above requirements but for some actions like open links and playing medias needs above applications.
 
 ### System Specs
 - Any Windows computer that can run telegram and chrome :D
