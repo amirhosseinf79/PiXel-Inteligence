@@ -1,10 +1,10 @@
 # PiXeL Intelligence v0.5.1-Beta
-## Under Developement
+## Under Development
 **(Beta Testers Only)**</br>
 
 A small smart Assistant. Anytime, Everywhere :)
 
-## Command & Toturials
+## Command & Tutorials
 - [Requirements](#requirements)
 - [App Features](#app-features)
 	- [Introduce](#introduce)
