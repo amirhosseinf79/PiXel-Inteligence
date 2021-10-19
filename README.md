@@ -1,8 +1,12 @@
-# PiXeL Intelligence v0.5.1-Beta
-## Under Development
-**(Beta Testers Only)**<br>
+# Welcome to PiXeL Intelligence
+	Last version: 0.5.1-Beta<br><br>
 
-A small smart Assistant. Anytime, Everywhere :)
+A small smart Assistant. Anytime, Everywhere :)<br><br>
+
+Thanks for reading this toturial.<br>
+if you have any problem of using app contact me on [Telegram](https://t.me/mirhosseinf79)<br><br>
+
+**(this version of program is under development and made for beta testers)**<br>
 
 ## Command & Tutorials
 - [Requirements](#requirements)
