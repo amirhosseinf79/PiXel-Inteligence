@@ -65,7 +65,7 @@ App can run without above requirements but for some actions like open links and 
 		- Search your name genre
 		- etc...
 - ##### Get IP Engine
-	-Get your IP any time:
+	- Get your IP any time:
 		- what is my ip address
 		- whats my ip
 		- etc...
