@@ -1,10 +1,9 @@
 # Welcome to PiXeL Intelligence
-Last version: v0.5.1-Beta<br><br>
 
-A small smart Assistant. Anytime, Everywhere :)<br><br>
+A small smart Assistant. Anytime, Everywhere :)<br>
 
 Thank you for reading this toturial.<br>
-if you have any problem of using app contact me on [Telegram](https://t.me/mirhosseinf79)<br>
+if you have any problem of using app contact me on [Telegram](https://t.me/mirhosseinf79)<br><br>
 **(this version of program is under development and made for beta testers)**<br>
 
 ## Command & Tutorials
@@ -13,6 +12,7 @@ if you have any problem of using app contact me on [Telegram](https://t.me/mirho
 	- [Introduce](#introduce)
 	- [Joke Engine](#joke-engine)
 	- [Search Engine](#search-engine)
+	- [Get IP Engine](#get-ip-engine)
 	- [Ask Engine](#ask-engine)
 	- [Download Engine:](#download-engine)
 	- [Play Media Engine](#play-media-engine)
@@ -63,6 +63,11 @@ App can run without above requirements but for some actions like open links and 
 		- Search python on wikipedia
 		- Search office on imdb
 		- Search your name genre
+		- etc...
+- ##### Get IP Engine
+	-Get your IP any time:
+		- what is my ip address
+		- whats my ip
 		- etc...
 - ##### Ask Engine
 	- Ask anything about anything:
