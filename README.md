@@ -239,6 +239,9 @@ Choose how many link can be collected in total:<br>
 Value Can be any number<br>
 
 ### main
+- **starting_sound**:
+	- Toggle App Play a song while starting<br>
+	- Value Can be True or False<br>
 - **voice**:<br>
 	- **toggle**: toggle Assistant Voice on/off<br>
 - **speech**:<br>
@@ -256,6 +259,13 @@ Value Can be any number<br>
 		- Texts you want to make them shortcut to write faster<br>
 		- Value Can be anything you want to write fast<br>
 		 **Maximum 9 Shortcut**<br>
+
+- **telegram_send_key**:
+	- Set your telegram send hotKey<br>
+	- Value can be like "ctrl+enter" or "enter"<br>
+- **whatsApp_send_key**: "enter"<br>
+	- Set your whatsApp send hotKey<br>
+	- Value can be like "ctrl+enter" or "enter"<br>
 
 	**Othe Values should not be changed**<br>
 ### movie_suggestion
