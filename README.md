@@ -180,14 +180,15 @@ Just type your ipv4 Address (192.168.1.* - your local ip address) on your browse
 	- Send your commands over the http
 
 ## AppConfig toturials
-AppConfig Has 5 Sections.
+AppConfig Has 6 Sections.
 
 ### AppConfig Sections
-1. **PATH:** Applications and local files PATH Settings
-2. **AnimeOut:** This Setting is for AnimeOut Downloader
-3. **web:** This is for Filtering links while searching and downloading
-4. **main:** This is for main application setting such as keyboard shortcuts and etc...
-5. **movie_suggestion:** This is for Movie suggestion system settings
+1. **user_name:** Your username in app settings
+2. **PATH:** Applications and local files PATH Settings
+3. **AnimeOut:** This Setting is for AnimeOut Downloader
+4. **web:** This is for Filtering links while searching and downloading
+5. **main:** This is for main application setting such as keyboard shortcuts and etc...
+6. **movie_suggestion:** This is for Movie suggestion system settings
 
 ### PATH
 Here you can put your Apps Destination.<br>
@@ -222,6 +223,9 @@ You can **Filter** which link should be skipped.<br>
 Value Can be anything<br>
 - **auto_open**: <br>
 Choose Assistant can open reviewed links on browser or not<br>
+Value Can be "True" or "False"<br>
+- **smart_rename**: <br>
+Choose Assistant can rename links in download manager or not<br>
 Value Can be "True" or "False"<br>
 - **search_pickRate**: <br>
 Choose how many link fetch at one try:<br>
@@ -264,3 +268,14 @@ Value Can be any number<br>
 - **rating**:<br>
 	- Video Rating in imdb<br>
 	- Value Can be any number from 3 to 9<br>
+
+### remote
+- **username**:<br>
+	- Usernam is required to enter remote server<br>
+	- Value Can be any string text<br>
+- **password**:<br>
+	- Password is required to enter remote server<br>
+	- Value Can be any string text<br>
+- **superuser**:<br>
+	- This is a backup password to enter remote without username and password<br>
+	- Value Can be any string text<br>
