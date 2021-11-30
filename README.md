@@ -2,7 +2,7 @@
 
 A small smart Assistant. Anytime, Everywhere :)<br>
 
-Thank you for reading this toturial.<br>
+Thank you for reading this Tutorial.<br>
 if you have any problem of using app [Email Me](mailto:amirhosseinfr79@gmail.com)<br><br>
 **(this version of program is under development and made for beta testers)**<br>
 
