@@ -3,7 +3,7 @@
 A small smart Assistant. Anytime, Everywhere :)<br>
 
 Thank you for reading this toturial.<br>
-if you have any problem of using app contact me on [Telegram](https://t.me/mirhosseinf79)<br><br>
+if you have any problem of using app [Email Me](mailto:amirhosseinfr79@gmail.com)<br><br>
 **(this version of program is under development and made for beta testers)**<br>
 
 ## Command & Tutorials
